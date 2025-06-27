@@ -20,7 +20,11 @@
     "parcel": "^2.15.2"
   },
   "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "node-fetch": "^2.7.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
-  }
+  },
+  "proxy": "https://www.swiggy.com"
 }

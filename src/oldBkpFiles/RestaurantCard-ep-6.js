@@ -5,7 +5,7 @@ const RestaurantCard = (props) => {
   };
   const { resData } = props;
   const { cloudinaryImageId, name, cuisines, avgRating } = resData?.info; // data de-structuring for better view. For initial format, check App-foodDeliveryStage1.js
-  //console.log(props);
+  console.log(props);
   return (
     <div className="res-card" style={styleCard}>
       <img
